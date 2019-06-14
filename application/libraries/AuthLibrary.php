@@ -47,7 +47,7 @@ class AuthLibrary {
 		}
 	}
 	
-	// Cek login
+	// Check login
 	public function check_login() {
 		if($this->CI->session->userdata('username') == '' && $this->CI->session->userdata('id_role')=='') {
 			$this->CI->session->set_flashdata('error','Oops...silakan login dulu');

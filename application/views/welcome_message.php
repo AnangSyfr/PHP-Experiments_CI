@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+
+?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -74,6 +76,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>Hanya bertujuan untuk eksperimen</p>
 		<code>
 			<li><a href="<?php echo base_url('Auth') ?>">Auth</a></li>
+			<li><a href="<?php echo base_url('EncryptionUrl/edit/'.$id) ?>">Encryption Url</a></li>
+			<li><a href="<?php echo base_url('CrudGenerator') ?>">Crud Generator</a></li>
 		</code>
 	</div>
 
